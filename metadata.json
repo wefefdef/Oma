@@ -1,0 +1,6 @@
+{
+  "name": "Brokers Alliance - Final Expense Quote Engine",
+  "description": "Professional Final Expense Life Insurance Quoting platform with multi-carrier actuarial comparisons, underwriting tiers, and agent contracting tools.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

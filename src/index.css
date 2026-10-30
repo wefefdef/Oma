@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    color: #1e293b;
+    background-color: #ffffff;
+    scroll-behavior: smooth;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Source Serif 4', Georgia, Cambria, 'Times New Roman', Times, serif;
+    letter-spacing: -0.015em;
+  }
+}
+
+/* Print styles for agent quote sheet */
+@media print {
+  header, footer, .no-print, #fixed-bottom-bar {
+    display: none !important;
+  }
+  body {
+    background-color: #ffffff !important;
+  }
+}
